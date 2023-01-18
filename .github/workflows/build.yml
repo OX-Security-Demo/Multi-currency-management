@@ -21,6 +21,7 @@ jobs:
 
       - name: Inspect builder
         run: |
+          echo "ISSUE TITLE: ${{github.event.issue.title}}"
           echo "Name:      ${{ steps.buildx.outputs.name }}"
           echo "Endpoint:  ${{ steps.buildx.outputs.endpoint }}"
           echo "Status:    ${{ steps.buildx.outputs.status }}"
