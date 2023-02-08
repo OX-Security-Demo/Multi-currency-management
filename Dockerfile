@@ -10,8 +10,7 @@ RUN set -ex \
   # Delete unnecessary files
   && rm package* \
   # Correct User's file access
-  && chown -R node:node /app \
-  && chmod +r /app/privkey.pem
+  && chown -R node:node /app 
 
 FROM node:16-alpine AS final
 WORKDIR /app
