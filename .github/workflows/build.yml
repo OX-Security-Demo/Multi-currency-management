@@ -41,7 +41,7 @@ jobs:
           echo "Platforms: ${{ steps.buildx.outputs.platforms }}"
 
       - name: Build the image multiplatform
-        run: docker buildx build --output "type=image,push=false" --platform linux/amd64 --tag kostya253/docker-service:latest --file ./Dockerfile .
+        run: docker buildx build --output "type=image,push=false" --platform linux/amd64 --tag oxdemo/docker-service:latest --file ./Dockerfile .
 
       - name: Log in to Docker Hub
         uses: docker/login-action@v1
@@ -53,6 +53,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: kostya253/docker-service:latest
+          tags: oxdemo/docker-service:latest
           platforms: linux/amd64
 
