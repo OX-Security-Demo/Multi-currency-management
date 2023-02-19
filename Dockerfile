@@ -29,16 +29,6 @@ USER 1000
 # For more details about managing access keys, see the Best practices for managing AWS access keys.
 
 ENV AWS_ACCESS_KEY_ID=AKIAS6RSYPD2JLITMPVN
-
-# Access key best practices
-
-#     Never store your access key in plain text, in a code repository, or in code.
-#     Disable or delete access key when no longer needed.
-#     Enable least-privilege permissions.
-#     Rotate access keys regularly.
-
-# For more details about managing access keys, see the Best practices for managing AWS access keys.
-
 ENV AWS_SECRET_ACCESS_KEY=3fVsufD/tZ9bfy4DzQtMwleSbNPgdG4jKvLUEdKR
 
 
