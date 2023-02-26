@@ -26,6 +26,7 @@
     "axios": "^0.15.3",
     "rsuite": "^4.10.2",
     "ua-parser-js": "^0.7.32",
+    "apollo-server": "^3.11.1",
     "@graphql-codegen/typescript-operations": "2.3.2",
     "react-scripts": "^3.0.1",
     "socket.io": "^3.0.4",
