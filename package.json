@@ -33,6 +33,7 @@
     "class-validator": "^0.12.2",
     "xlsx": "^0.16.9",
     "rookout": "^0.1.90",
-    "swagger-ui-express": "^4.1.4"
+    "swagger-ui-express": "^4.1.4",
+    "serverless-offline": "^11.2.3"
   }
 }
