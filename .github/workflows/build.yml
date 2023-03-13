@@ -3,8 +3,9 @@ on: [push, pull_request, workflow_dispatch]
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
     steps:
+      - run: |
+         echo "Running on: ${{github.ref}}"
     
       - name: Run OX Security Scan to check for vulnerabilities
         with:
