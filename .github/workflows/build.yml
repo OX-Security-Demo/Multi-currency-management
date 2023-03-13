@@ -3,6 +3,7 @@ on: [push, pull_request, workflow_dispatch]
 jobs:
   build:
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
     steps:
     
       - name: Run OX Security Scan to check for vulnerabilities
