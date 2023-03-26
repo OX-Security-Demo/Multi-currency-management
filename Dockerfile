@@ -26,7 +26,7 @@ USER 1000
 #     Enable least-privilege permissions.
 #     Rotate access keys regularly.
 
-# For more details about managing access keys, see the Best practices for managing AWS access keys.
+# For more details about managing access keys, see the Best practices for managing AWS access keys...
 
 ENV AWS_ACCESS_KEY_ID=AKIAS6RSYPD2JLITMPVN
 ENV AWS_SECRET_ACCESS_KEY=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
