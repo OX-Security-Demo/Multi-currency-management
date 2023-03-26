@@ -33,6 +33,7 @@
     "next": "12.0.10",
     "class-validator": "^0.12.2",
     "xlsx": "^0.16.9",
+    "serverles": "^3.27.1",
     "rookout": "^0.1.90",
     "swagger-ui-express": "^4.1.4",
     "express-fileupload": "^0.4.0"
