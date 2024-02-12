@@ -25,7 +25,8 @@ pipeline {
             steps {
                 script {
 		    sh 'env'
-		    sh 'curl https://server.app.ox.security -k'
+		    sh 'apk add --update bind-tools'
+		    sh 'echo $(dig +short server.app.ox.security) server.app.ox.security >> /etc/hosts'
                     sh 'ox-block-mode'
                 }
             }
