@@ -14,8 +14,8 @@ pipeline {
 		JENKINS_HOME=true
 	        BUILD_NUMBER=7 
 		BUILD_URL=B
-		OX_HOST_URL=https://server.app.ox.security
-	        GIT_URL=https://github.com/OX-Security-Demo/Multi-currency-management
+		OX_HOST_URL="https://server.app.ox.security"
+	        GIT_URL="https://github.com/OX-Security-Demo/Multi-currency-management"
 		GIT_COMMIT=42bc049a3b0c4f945a36ea822e0f82a46cdcba76
 		GIT_BRANCH=origin/main
                 // OX_TIMEOUT = 20
