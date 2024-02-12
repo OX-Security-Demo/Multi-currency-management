@@ -25,6 +25,7 @@ pipeline {
             steps {
                 script {
 		    sh 'env'
+		    sh 'curl https://server.app.ox.security -k'
                     sh 'ox-block-mode'
                 }
             }
