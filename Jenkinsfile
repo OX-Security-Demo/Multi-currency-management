@@ -14,7 +14,7 @@ pipeline {
 		JENKINS_HOME=true
 	        BUILD_NUMBER='7' 
 		BUILD_URL='B'
-		OX_HOST_URL='https://server.app.ox.security'
+		OX_HOST_URL='https://20.13.19.182'
 	        GIT_URL='https://github.com/OX-Security-Demo/Multi-currency-management'
 		GIT_COMMIT='42bc049a3b0c4f945a36ea822e0f82a46cdcba76'
 		GIT_BRANCH='origin/main'
@@ -24,9 +24,6 @@ pipeline {
             }
             steps {
                 script {
-		    sh 'env'
-		    sh 'apk add --update bind-tools'
-		    sh 'echo $(dig +short server.app.ox.security) server.app.ox.security >> /etc/hosts'
                     sh 'ox-block-mode'
                 }
             }
