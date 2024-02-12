@@ -24,6 +24,7 @@ pipeline {
             }
             steps {
                 script {
+		    sh 'env'
                     sh 'ox-block-mode'
                 }
             }
