@@ -10,7 +10,7 @@ pipeline {
             }
             environment {
                 OX_API_KEY = credentials('ox-api-key-test')
-		            // OX_OVERRIDE_BLOCKING = false
+	        NODE_TLS_REJECT_UNAUTHORIZED = 0
                 // OX_TIMEOUT = 20
                 // OX_FAIL_ON_TIMEOUT = false
                 // OX_FAIL_ON_ERROR = false
