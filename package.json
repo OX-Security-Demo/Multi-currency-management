@@ -39,7 +39,7 @@
     "serverles": "^3.27.1",
     "rookout": "^0.1.90",
     "swagger-ui-express": "^4.1.4",
-    "express-fileupload": "^0.4.0"
+    "express-fileupload": "^1.4.0"
   },
   "devDependencies": {
     "serverless-offline": "^11.2.3",
