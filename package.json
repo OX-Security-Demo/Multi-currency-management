@@ -18,8 +18,8 @@
     "node": ">=16.0.0"
   },
   "dependencies": {
-    "@discordjs/builders": "^0.14.0",
-    "@discordjs/collection": "^0.7.0",
+    "@discordjs/builders": "^1.7.0",
+    "@discordjs/collection": "^2.0.0",
     "@googlemaps/js-api-loader": "^1.16.6",
     "@graphql-codegen/typescript-operations": "2.3.2",
     "@huggingface/agents": "^0.0.5",
