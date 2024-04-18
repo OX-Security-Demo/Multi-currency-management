@@ -1,6 +1,6 @@
 import { HfInference } from "@huggingface/inference";
 
-const HF_TOKEN = "hf_TOKEN";
+const HF_TOKEN = "huggingface_TOKEN";
 
 const inference = new HfInference(HF_TOKEN);
 
