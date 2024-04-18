@@ -24,6 +24,7 @@
     "@graphql-codegen/typescript-operations": "2.3.2",
     "@huggingface/agents": "^0.0.5",
     "@huggingface/hub": "^0.14.9",
+    "@slack/web-api": "^7.0.3",
     "apollo-server": "^3.11.1",
     "axios": "^0.15.3",
     "caniuse-lite": "1.0.30001470",
