@@ -1,5 +1,5 @@
 var logger = require('logzio-nodejs').createLogger({
-    token: 'LOGZ-API-TOKEN>>',
+    token: 'LOGZIO-API-TOKEN',
     protocol: 'https',
     host: 'testorg.logs.io',
     port: '8071',
