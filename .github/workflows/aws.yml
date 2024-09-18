@@ -35,5 +35,5 @@ jobs:
         ECR_REPOSITORY: docker-service
         IMAGE_TAG: latest
       run: |
-        docker build -t $ECR_REGISTRY.dkr.ecr.eu-west-1.amazonaws.com/$ECR_REPOSITORY:$IMAGE_TAG .
+        docker build -t $ECR_REGISTRY.dkr.ecr.eu-west-1.amazonaws.com/$ECR_REPOSITORY:$IMAGE_TAG --label "org.opencontainers.image.source=${INPUT_GITHUB_REPOSITORY_URL}" --label "security.ox.image.ci.repo.id=${INPUT_GITHUB_REPOSITORY_ID}" --label "security.ox.image.ci.job.id=${GITHUB_RUN_ID}" --label "security.ox.image.ci.source=github".
         docker push $ECR_REGISTRY.dkr.ecr.eu-west-1.amazonaws.com/$ECR_REPOSITORY:$IMAGE_TAG
