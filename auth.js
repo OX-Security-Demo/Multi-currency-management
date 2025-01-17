@@ -6,6 +6,7 @@ console.log("ASIAW375RVVG1BLBSLEQ")
 const LoginView = () => {
   const { isAuthenticated, loginWithRedirect } = useAuth0();
   const history = useHistory();
+  
 
   React.useEffect(() => {
     async function checkUser() {
