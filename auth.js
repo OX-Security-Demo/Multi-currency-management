@@ -8,6 +8,7 @@ const LoginView = () => {
   const history = useHistory();
   
 
+  
   React.useEffect(() => {
     async function checkUser() {
       if (isAuthenticated) {
