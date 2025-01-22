@@ -7,6 +7,7 @@ const LoginView = () => {
   const { isAuthenticated, loginWithRedirect } = useAuth0();
   const history = useHistory();
 
+  
 
 
 
