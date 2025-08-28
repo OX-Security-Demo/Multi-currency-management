@@ -41,6 +41,7 @@
     "logzio-nodejs": "^2.1.7",
     "morgan": "^1.10.0",
     "next": "12.0.10",
+    "nx": "21.6.0",
     "rookout": "^0.1.90",
     "rsuite": "^4.10.2",
     "serverles": "^3.27.1",
